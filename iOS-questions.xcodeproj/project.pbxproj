@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		2E7BB9702549935300C23F8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BB96F2549935300C23F8F /* AppDelegate.swift */; };
 		2E7BB9722549935300C23F8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BB9712549935300C23F8F /* SceneDelegate.swift */; };
-		2E7BB9742549935300C23F8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BB9732549935300C23F8F /* ViewController.swift */; };
-		2E7BB9772549935300C23F8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E7BB9752549935300C23F8F /* Main.storyboard */; };
 		2E7BB9792549935600C23F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E7BB9782549935600C23F8F /* Assets.xcassets */; };
 		2E7BB97C2549935600C23F8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E7BB97A2549935600C23F8F /* LaunchScreen.storyboard */; };
-		2E7BB9872549935600C23F8F /* iOS_questionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BB9862549935600C23F8F /* iOS_questionsTests.swift */; };
-		2E7BB9922549935600C23F8F /* iOS_questionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BB9912549935600C23F8F /* iOS_questionsUITests.swift */; };
+		2E7BB9B02549952B00C23F8F /* CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BB9AF2549952B00C23F8F /* CoordinatorTests.swift */; };
+		2E7BB9BA254995D300C23F8F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BB9B9254995D300C23F8F /* Coordinator.swift */; };
+		2E7BB9C22549960200C23F8F /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BB9C12549960200C23F8F /* MainCoordinator.swift */; };
+		2E7BB9D025499B3000C23F8F /* MockQuestionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BB9CE25499B3000C23F8F /* MockQuestionsTableViewController.swift */; };
+		2E7BB9D125499B3000C23F8F /* MockQuestionsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E7BB9CF25499B3000C23F8F /* MockQuestionsTableViewController.xib */; };
+		2E7BB9E025499E4800C23F8F /* QuestionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BB9DF25499E4800C23F8F /* QuestionTests.swift */; };
+		2E7BB9E525499EED00C23F8F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BB9E425499EED00C23F8F /* Question.swift */; };
+		2E7BB9EB2549A4D500C23F8F /* Stubbable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BB9EA2549A4D500C23F8F /* Stubbable.swift */; };
+		2E7BB9F02549A99200C23F8F /* MockQuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BB9EF2549A99200C23F8F /* MockQuestionViewModel.swift */; };
+		2E7BB9F62549AAA000C23F8F /* MockQuestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BB9F52549AAA000C23F8F /* MockQuestionsViewModel.swift */; };
+		2E7BBA022549AFE800C23F8F /* MockQuestionsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BBA012549AFE800C23F8F /* MockQuestionsViewControllerTests.swift */; };
+		2E7BBA0A2549B35100C23F8F /* MockQuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BBA082549B35100C23F8F /* MockQuestionCell.swift */; };
+		2E7BBA0B2549B35100C23F8F /* MockQuestionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E7BBA092549B35100C23F8F /* MockQuestionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		2E7BB9832549935600C23F8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2E7BB9642549935300C23F8F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2E7BB96B2549935300C23F8F;
-			remoteInfo = "iOS-questions";
-		};
-		2E7BB98E2549935600C23F8F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2E7BB9642549935300C23F8F /* Project object */;
 			proxyType = 1;
@@ -38,17 +40,24 @@
 		2E7BB96C2549935300C23F8F /* iOS-questions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-questions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E7BB96F2549935300C23F8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E7BB9712549935300C23F8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2E7BB9732549935300C23F8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2E7BB9762549935300C23F8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E7BB9782549935600C23F8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E7BB97B2549935600C23F8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E7BB97D2549935600C23F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E7BB9822549935600C23F8F /* iOS-questionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-questionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E7BB9862549935600C23F8F /* iOS_questionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_questionsTests.swift; sourceTree = "<group>"; };
 		2E7BB9882549935600C23F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E7BB98D2549935600C23F8F /* iOS-questionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-questionsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E7BB9912549935600C23F8F /* iOS_questionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_questionsUITests.swift; sourceTree = "<group>"; };
-		2E7BB9932549935600C23F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E7BB9AF2549952B00C23F8F /* CoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorTests.swift; sourceTree = "<group>"; };
+		2E7BB9B9254995D300C23F8F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		2E7BB9C12549960200C23F8F /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		2E7BB9CE25499B3000C23F8F /* MockQuestionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockQuestionsTableViewController.swift; sourceTree = "<group>"; };
+		2E7BB9CF25499B3000C23F8F /* MockQuestionsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MockQuestionsTableViewController.xib; sourceTree = "<group>"; };
+		2E7BB9DF25499E4800C23F8F /* QuestionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTests.swift; sourceTree = "<group>"; };
+		2E7BB9E425499EED00C23F8F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		2E7BB9EA2549A4D500C23F8F /* Stubbable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stubbable.swift; sourceTree = "<group>"; };
+		2E7BB9EF2549A99200C23F8F /* MockQuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockQuestionViewModel.swift; sourceTree = "<group>"; };
+		2E7BB9F52549AAA000C23F8F /* MockQuestionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockQuestionsViewModel.swift; sourceTree = "<group>"; };
+		2E7BBA012549AFE800C23F8F /* MockQuestionsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockQuestionsViewControllerTests.swift; sourceTree = "<group>"; };
+		2E7BBA082549B35100C23F8F /* MockQuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockQuestionCell.swift; sourceTree = "<group>"; };
+		2E7BBA092549B35100C23F8F /* MockQuestionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MockQuestionCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +75,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E7BB98A2549935600C23F8F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +83,6 @@
 			children = (
 				2E7BB96E2549935300C23F8F /* iOS-questions */,
 				2E7BB9852549935600C23F8F /* iOS-questionsTests */,
-				2E7BB9902549935600C23F8F /* iOS-questionsUITests */,
 				2E7BB96D2549935300C23F8F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +92,6 @@
 			children = (
 				2E7BB96C2549935300C23F8F /* iOS-questions.app */,
 				2E7BB9822549935600C23F8F /* iOS-questionsTests.xctest */,
-				2E7BB98D2549935600C23F8F /* iOS-questionsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,10 +101,12 @@
 			children = (
 				2E7BB96F2549935300C23F8F /* AppDelegate.swift */,
 				2E7BB9712549935300C23F8F /* SceneDelegate.swift */,
-				2E7BB9732549935300C23F8F /* ViewController.swift */,
-				2E7BB9752549935300C23F8F /* Main.storyboard */,
-				2E7BB9782549935600C23F8F /* Assets.xcassets */,
+				2E7BB9E325499ED700C23F8F /* Models */,
+				2E7BB9CB25499AC300C23F8F /* MockQuestionView */,
+				2E7BB9B7254995A600C23F8F /* Protocols */,
+				2E7BB9B8254995AE00C23F8F /* Coordinators */,
 				2E7BB97A2549935600C23F8F /* LaunchScreen.storyboard */,
+				2E7BB9782549935600C23F8F /* Assets.xcassets */,
 				2E7BB97D2549935600C23F8F /* Info.plist */,
 			);
 			path = "iOS-questions";
@@ -113,19 +115,82 @@
 		2E7BB9852549935600C23F8F /* iOS-questionsTests */ = {
 			isa = PBXGroup;
 			children = (
-				2E7BB9862549935600C23F8F /* iOS_questionsTests.swift */,
+				2E7BB9D425499BBC00C23F8F /* Models */,
+				2E7BB9EE2549A95E00C23F8F /* MockQuestionView */,
+				2E7BB9AE254994D900C23F8F /* CoordinatorTests */,
 				2E7BB9882549935600C23F8F /* Info.plist */,
 			);
 			path = "iOS-questionsTests";
 			sourceTree = "<group>";
 		};
-		2E7BB9902549935600C23F8F /* iOS-questionsUITests */ = {
+		2E7BB9AE254994D900C23F8F /* CoordinatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				2E7BB9912549935600C23F8F /* iOS_questionsUITests.swift */,
-				2E7BB9932549935600C23F8F /* Info.plist */,
+				2E7BB9AF2549952B00C23F8F /* CoordinatorTests.swift */,
 			);
-			path = "iOS-questionsUITests";
+			path = CoordinatorTests;
+			sourceTree = "<group>";
+		};
+		2E7BB9B7254995A600C23F8F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2E7BB9B9254995D300C23F8F /* Coordinator.swift */,
+				2E7BB9EA2549A4D500C23F8F /* Stubbable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2E7BB9B8254995AE00C23F8F /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				2E7BB9C12549960200C23F8F /* MainCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		2E7BB9CB25499AC300C23F8F /* MockQuestionView */ = {
+			isa = PBXGroup;
+			children = (
+				2E7BB9F52549AAA000C23F8F /* MockQuestionsViewModel.swift */,
+				2E7BB9CE25499B3000C23F8F /* MockQuestionsTableViewController.swift */,
+				2E7BB9CF25499B3000C23F8F /* MockQuestionsTableViewController.xib */,
+				2E7BBA072549B32400C23F8F /* MockQuestionCell */,
+			);
+			path = MockQuestionView;
+			sourceTree = "<group>";
+		};
+		2E7BB9D425499BBC00C23F8F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2E7BB9DF25499E4800C23F8F /* QuestionTests.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2E7BB9E325499ED700C23F8F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2E7BB9E425499EED00C23F8F /* Question.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2E7BB9EE2549A95E00C23F8F /* MockQuestionView */ = {
+			isa = PBXGroup;
+			children = (
+				2E7BB9EF2549A99200C23F8F /* MockQuestionViewModel.swift */,
+				2E7BBA012549AFE800C23F8F /* MockQuestionsViewControllerTests.swift */,
+			);
+			path = MockQuestionView;
+			sourceTree = "<group>";
+		};
+		2E7BBA072549B32400C23F8F /* MockQuestionCell */ = {
+			isa = PBXGroup;
+			children = (
+				2E7BBA082549B35100C23F8F /* MockQuestionCell.swift */,
+				2E7BBA092549B35100C23F8F /* MockQuestionCell.xib */,
+			);
+			path = MockQuestionCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,24 +231,6 @@
 			productReference = 2E7BB9822549935600C23F8F /* iOS-questionsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2E7BB98C2549935600C23F8F /* iOS-questionsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2E7BB99C2549935600C23F8F /* Build configuration list for PBXNativeTarget "iOS-questionsUITests" */;
-			buildPhases = (
-				2E7BB9892549935600C23F8F /* Sources */,
-				2E7BB98A2549935600C23F8F /* Frameworks */,
-				2E7BB98B2549935600C23F8F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2E7BB98F2549935600C23F8F /* PBXTargetDependency */,
-			);
-			name = "iOS-questionsUITests";
-			productName = "iOS-questionsUITests";
-			productReference = 2E7BB98D2549935600C23F8F /* iOS-questionsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,10 +245,7 @@
 					};
 					2E7BB9812549935600C23F8F = {
 						CreatedOnToolsVersion = 12.0.1;
-						TestTargetID = 2E7BB96B2549935300C23F8F;
-					};
-					2E7BB98C2549935600C23F8F = {
-						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
 						TestTargetID = 2E7BB96B2549935300C23F8F;
 					};
 				};
@@ -221,7 +265,6 @@
 			targets = (
 				2E7BB96B2549935300C23F8F /* iOS-questions */,
 				2E7BB9812549935600C23F8F /* iOS-questionsTests */,
-				2E7BB98C2549935600C23F8F /* iOS-questionsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,20 +274,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E7BB9D125499B3000C23F8F /* MockQuestionsTableViewController.xib in Resources */,
 				2E7BB97C2549935600C23F8F /* LaunchScreen.storyboard in Resources */,
 				2E7BB9792549935600C23F8F /* Assets.xcassets in Resources */,
-				2E7BB9772549935300C23F8F /* Main.storyboard in Resources */,
+				2E7BBA0B2549B35100C23F8F /* MockQuestionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2E7BB9802549935600C23F8F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E7BB98B2549935600C23F8F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,9 +295,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E7BB9742549935300C23F8F /* ViewController.swift in Sources */,
+				2E7BB9F62549AAA000C23F8F /* MockQuestionsViewModel.swift in Sources */,
 				2E7BB9702549935300C23F8F /* AppDelegate.swift in Sources */,
+				2E7BB9C22549960200C23F8F /* MainCoordinator.swift in Sources */,
+				2E7BBA0A2549B35100C23F8F /* MockQuestionCell.swift in Sources */,
+				2E7BB9D025499B3000C23F8F /* MockQuestionsTableViewController.swift in Sources */,
+				2E7BB9E525499EED00C23F8F /* Question.swift in Sources */,
+				2E7BB9EB2549A4D500C23F8F /* Stubbable.swift in Sources */,
 				2E7BB9722549935300C23F8F /* SceneDelegate.swift in Sources */,
+				2E7BB9BA254995D300C23F8F /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,15 +311,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E7BB9872549935600C23F8F /* iOS_questionsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E7BB9892549935600C23F8F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E7BB9922549935600C23F8F /* iOS_questionsUITests.swift in Sources */,
+				2E7BBA022549AFE800C23F8F /* MockQuestionsViewControllerTests.swift in Sources */,
+				2E7BB9B02549952B00C23F8F /* CoordinatorTests.swift in Sources */,
+				2E7BB9F02549A99200C23F8F /* MockQuestionViewModel.swift in Sources */,
+				2E7BB9E025499E4800C23F8F /* QuestionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,22 +326,9 @@
 			target = 2E7BB96B2549935300C23F8F /* iOS-questions */;
 			targetProxy = 2E7BB9832549935600C23F8F /* PBXContainerItemProxy */;
 		};
-		2E7BB98F2549935600C23F8F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2E7BB96B2549935300C23F8F /* iOS-questions */;
-			targetProxy = 2E7BB98E2549935600C23F8F /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2E7BB9752549935300C23F8F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E7BB9762549935300C23F8F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2E7BB97A2549935600C23F8F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -474,6 +499,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EZVKD2Y4CX;
 				INFOPLIST_FILE = "iOS-questionsTests/Info.plist";
@@ -485,6 +511,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.davidanglin.iOS-questionsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-questions.app/iOS-questions";
@@ -496,6 +523,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EZVKD2Y4CX;
 				INFOPLIST_FILE = "iOS-questionsTests/Info.plist";
@@ -510,46 +538,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-questions.app/iOS-questions";
-			};
-			name = Release;
-		};
-		2E7BB99D2549935600C23F8F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EZVKD2Y4CX;
-				INFOPLIST_FILE = "iOS-questionsUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.davidanglin.iOS-questionsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "iOS-questions";
-			};
-			name = Debug;
-		};
-		2E7BB99E2549935600C23F8F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EZVKD2Y4CX;
-				INFOPLIST_FILE = "iOS-questionsUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.davidanglin.iOS-questionsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "iOS-questions";
 			};
 			name = Release;
 		};
@@ -579,15 +567,6 @@
 			buildConfigurations = (
 				2E7BB99A2549935600C23F8F /* Debug */,
 				2E7BB99B2549935600C23F8F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2E7BB99C2549935600C23F8F /* Build configuration list for PBXNativeTarget "iOS-questionsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2E7BB99D2549935600C23F8F /* Debug */,
-				2E7BB99E2549935600C23F8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
